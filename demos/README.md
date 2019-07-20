@@ -1,0 +1,3 @@
+# Raw basic demos
+
+These are intended to be raw apps; nothing sophisticated here...
