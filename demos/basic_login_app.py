@@ -1,3 +1,8 @@
+"""
+Basic login screen
+https://kivy.org/doc/stable/guide/basic.html#quickstart
+"""
+
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout # similar to slicers in wxpython
 from kivy.uix.label import Label
