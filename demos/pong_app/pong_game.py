@@ -10,13 +10,19 @@ from kivy.clock import Clock
 
 
 class PongGame(Widget):
-    pass
+    
+    def update(self, dt):
+        # call ball.move and other stuff
+        pass
 
 
 class PongApp(App):
 
     def build(self):
-        return PongGame()
+        game = PongGame()
+        Clock.schedule_interval(game.update, 1.0/60)
+        return game
+
 
 class PongBall(Widget):
 
